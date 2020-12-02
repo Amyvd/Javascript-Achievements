@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Date </title>
+</head>
+<body>
+<h3>Dit is mijn opdracht les 3</h3>
+<br>
+<p>In deze opdracht gaan we het hebben over een do Date</p>
+
+<div id="dag"></div>
+<div id="maand"></div>
+<div id="jaar"></div>
+
+<script>
+let datum = new Date();
+function toonDatum(){
+    var dag = document.getElementById('dag');
+    var maand =  document.getElementById('maand');
+    var jaar = document.getElementById('jaar'); 
+    dag.innerHTML = datum.getDay();
+    maand.innerHTML = datum.getMonth();
+    jaar.innerHTML = datum.getFullYear();
+    
+    }
+
+window.addEventListener('DOMContentLoaded', toonDatum);
+
+
+
+         
+</script>
+</body>
+</html>
