@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll on me</title>
+</head>
+<body>
+    <main>
+        <h1 id="scrolling">Vindt jij eten ook lekker?</h1>
+        <form onreset="myFunction()">
+            <input type="reset">
+          </form>
+    </main>
+    <script>
+        h1 = document.getElementById("scrolling");
+        h1.addEventListener("wheel", ()=> { 
+            h1.innerHTML += "??????"});
+
+        document.addEventListener("click", toevoegen );
+        function toevoegen(){
+            document.getElementById("scrolling").innerHTML = "Ja ik hou zeker van eten";   
+        }
+        function myFunction() {
+            document.removeEventListener() 
+        }
+        
+    </script>
+
+</body>
+</html>

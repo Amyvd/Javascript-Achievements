@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111010;
+    color: white;
+}
+main{
+    background-color:#3F3A3A;
+    color: white;
+    margin: 90px;
+    height: 250px;
+}
+main h1{
+    padding-top: 45px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+main h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 0;
+}
